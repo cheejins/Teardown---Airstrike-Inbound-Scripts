@@ -3,6 +3,21 @@ https://teardownmods.com/index.php?/file/626-airstrike-inbound-a10-warthog
 # Change-log
 <br/>
 
+**2.1.2**
+  * Fixes
+    * A10 now spawns properly instead of occasionally glitching out and flying into the floor.
+    * F15 always drops bombs (would sometimes fly by without dropping bombs) 
+  * Tuning
+    * Made target preview lines for the A10 less dense and lower in height.
+    
+**2.1.1**
+
+  * Script
+    * Implemented reliable airstrike phasing system
+  * Fixes
+    * Ready sound only plays once (glitch made it play several times)
+    * Plane ready notifications properly show up at the end of airstrikes
+
 **2.1.0**
   * Mod now works with Teardown 0.5 (experimental beta)
   * Added better target preview lines
