@@ -57,7 +57,7 @@ https://teardownmods.com/index.php?/file/626-airstrike-inbound-a10-warthog
     * A10 tutorial section
   * Script:
     * Major script rework
-    * Script to supports multiple planes
+    * Script now supports multiple planes
     * Fixed a few bugs
     * Added more customization options
     * Went from 297 lines to 865 lines of code  
