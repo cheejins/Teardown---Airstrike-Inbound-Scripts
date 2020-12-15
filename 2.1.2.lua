@@ -71,13 +71,13 @@ local sounds = {
     chime            = LoadSound("elevator-chime"),
     engine           = LoadLoop("tools/blowtorch-loop"),
     planeEntry       = LoadSound("chopper-sound"),
-    airstrikeEnded     = LoadSound("valuable0"),
+    airstrikeEnded   = LoadSound("valuable0"),
     planeNotReady    = LoadSound("error0"),
     click            = LoadSound("tool_pickup"),
     
-    f15_flyby        = LoadSound("vehicle/woodboat-drive"),
-    a10_flyby        = LoadSound("vehicle/woodboat-idle"),
-    a10_gun          = LoadSound("vehicle/yacht-idle"),
+    f15_flyby        = LoadSound("MOD/sounds/flyby_f15.ogg"),
+    a10_flyby        = LoadSound("MOD/sounds/flyby_a10.ogg"),
+    a10_gun          = LoadSound("MOD/sounds/shoot_a10.ogg"),
 }
 
 
@@ -192,7 +192,7 @@ end
                 plane.shootTimerDefault     = 1.4 -- seconds
                 plane.shootTimer            = plane.shootTimerDefault
             -- sound
-                plane.sound_flyBy           = LoadSound("vehicle/woodboat-drive")
+                plane.sound_flyBy           = sounds.f15_flyby
                 plane.sound_customShotSound = nil
                 plane.customSoundPlayed     = true
                 plane.distancePlaneToPlayer = nil
